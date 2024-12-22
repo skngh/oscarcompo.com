@@ -1,0 +1,66 @@
+
+* {
+  cursor: none;
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+input, textarea {
+  cursor: text !important;
+}
+@media (max-width: 768px) {
+  * {
+      cursor: default;
+  }
+  button, a {
+    cursor: pointer !important;
+  }
+}
+.main-container{
+  margin: 10%;
+}
+body, html {
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    
+  }
+  .text {
+    padding: 0px;
+    
+    border:none;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+  }
+  .un {
+    display: inline-block;
+    padding-bottom:2px;
+    background-image: linear-gradient(white 0 0);
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition:
+    background-size 0.3s,
+    background-position 0s 0.3s; /*change after the size immediately*/
+  }
+  
+  .un:hover {
+    background-position: 100% 100%; /*OR bottom right*/
+    background-size: 100% 2px;
+  }
+  .title {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+  }
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .credit {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: black;
+    margin: 10px;
+  }

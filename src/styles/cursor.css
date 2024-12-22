@@ -1,0 +1,31 @@
+.cursor {
+    background-color: white;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition: height 0.2s ease, width 0.2s ease;
+}
+.hover {
+    height: 45px;
+    width: 45px;
+}
+.download-text {
+    display: none;
+    text-decoration: none;
+}
+.download-text:hover {
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .cursor{
+        display: none;
+    }
+   .download-text {
+    display: block;
+   }
+}

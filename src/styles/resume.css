@@ -1,0 +1,20 @@
+
+.pdf {
+    height: 100%;
+    width: 50%;
+    border: none;
+    overflow: hidden;
+    object-fit: contain;
+}
+.pdf-container {
+    height:100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .pdf{
+        display: none;
+    }
+}
