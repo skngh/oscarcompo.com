@@ -18,7 +18,7 @@ input, textarea {
   margin: 10%;
 }
 body, html {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: black;
     color: white;
     

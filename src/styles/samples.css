@@ -8,11 +8,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20vh;
+    margin-top: 10vh;
     flex-wrap: wrap;
     gap: 26px;
     width: 40vw;
-
 }
 .song {
     width: 100%;
