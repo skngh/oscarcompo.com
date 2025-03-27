@@ -22,7 +22,7 @@ function Main() {
     <>
       <div className="main-container">
         <h1>Oscar Compo</h1>
-        <p className="title">producer, engineer, songwriting</p>
+        <p className="title">producer, engineer, songwriter</p>
         <div className="buttons-container">
           {pages.map(({ name, path, external }, index) => (
             <div key={index}>
