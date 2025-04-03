@@ -42,7 +42,7 @@ function Main() {
             </div>
           ))}
         </div>
-        <h2>work:</h2>
+        <h2>selected work:</h2>
         <Work />
       </div>
     </>
