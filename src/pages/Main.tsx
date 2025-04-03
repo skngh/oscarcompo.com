@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import "../styles/main.css";
+import Work from "./Work.tsx";
 
 const pages = [
   { name: "resume", path: "/resume", external: false },
-  { name: "samples", path: "/samples", external: false },
   {
     name: "instagram",
     path: "https://www.instagram.com/oscarcompo/",
@@ -42,6 +42,8 @@ function Main() {
             </div>
           ))}
         </div>
+        <h2>work:</h2>
+        <Work />
       </div>
     </>
   );

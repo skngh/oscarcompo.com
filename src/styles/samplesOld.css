@@ -1,0 +1,75 @@
+.sample-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.audio-player-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    gap: 26px;
+    width: 40vw;
+}
+.song {
+    width: 100%;
+}
+
+.rhap_container {
+    box-shadow: none !important;
+    background-color: black;
+}
+
+.rhap_time {
+    color: white;
+}
+.rhap_volume-container {
+
+    display: none;
+}
+.rhap_container svg {
+    color: white;
+}
+.rhap_progress-indicator {
+    color: white;
+    background: white;
+}
+.rhap_progress-filled {
+    background-color: white;
+}
+.rhap_progress-bar {
+    background-color: black;
+    border: solid 1px white;
+
+}
+.rhap_repeat-button {
+    display: none;
+}
+.song-names {
+    text-align: left;
+    margin-left: 15px;
+    /* font-family: "Open Sans", sans-serif; */
+    /* font-weight: bold; */
+}
+.top-text {
+    display: flex;
+    justify-content: space-between; /* Push elements to the edges */
+  align-items: center; /* Align text vertically */
+}
+.description {
+    font-size: 15px;
+}
+@media (max-width: 768px) {
+    .rhap_progress-container {
+        display: none;
+    }
+    .rhap_time {
+        display: none;
+    }
+    .audio-player-container {
+        width: 90%;
+        margin-top: 15vh;
+    }
+}

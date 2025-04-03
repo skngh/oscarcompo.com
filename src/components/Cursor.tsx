@@ -36,6 +36,12 @@ const Cursor = () => {
         button.addEventListener("mouseleave", handleMouseLeave);
         button.addEventListener("mousedown", handleMouseDown);
       });
+      const images = document.querySelectorAll("img");
+      images.forEach((img) => {
+        img.addEventListener("mouseenter", handleMouseEnter);
+        img.addEventListener("mouseleave", handleMouseLeave);
+        img.addEventListener("mousedown", handleMouseDown);
+      });
     };
 
     // Add mousemove listener for cursor position
