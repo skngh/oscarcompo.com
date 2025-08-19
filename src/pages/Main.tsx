@@ -3,17 +3,12 @@ import "../styles/main.css";
 import Work from "./Work.tsx";
 
 const pages = [
-  { name: "resume", path: "/resume", external: false },
   {
     name: "instagram",
     path: "https://www.instagram.com/oscarcompo/",
     external: true,
   },
-  {
-    name: "linkedin",
-    path: "https://www.linkedin.com/in/oscar-compo-b4a48a296/",
-    external: true,
-  },
+
   { name: "contact", path: "/contact", external: false },
 ];
 
@@ -42,7 +37,7 @@ function Main() {
             </div>
           ))}
         </div>
-        <h2>selected work:</h2>
+        <h2 className="not-bold">selected work:</h2>
         <Work />
       </div>
     </>

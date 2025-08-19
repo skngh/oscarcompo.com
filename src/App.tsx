@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import Main from "./pages/Main";
-import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 import Cursor from "./components/Cursor";
@@ -14,7 +13,6 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       {!isTouchDevice() && <Cursor />}
