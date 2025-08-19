@@ -59,7 +59,7 @@ body, html {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 40px;
 
   }
   .credit {
@@ -73,7 +73,7 @@ body, html {
     font-weight: normal;
   }
   .selected-work {
-    margin-top: 70px;
+    margin-top: 50px;
   }
   @media (max-width: 768px) {
     .name {
