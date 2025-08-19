@@ -33,7 +33,7 @@ img {
 @media(max-width: 767px)
 {
     .grid-item {
-        width: 75px;
+        width: 55px;
     }
     .grid-container{
         width: 80vw;

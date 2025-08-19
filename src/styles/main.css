@@ -1,7 +1,9 @@
 
 * {
   cursor: none;
-  font-family: Menlo, Monaco, 'Courier New', monospace;
+  /* font-family: Menlo, Monaco, 'Courier New', monospace;
+   */
+   font-family: Arial, Helvetica, sans-serif;
 }
 input, textarea {
   cursor: text !important;
@@ -55,9 +57,10 @@ body, html {
   }
   .buttons-container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin-bottom: 100px;
-    
+    margin-top: 50px;
+
   }
   .credit {
     position: fixed;
@@ -69,3 +72,25 @@ body, html {
   .not-bold {
     font-weight: normal;
   }
+  .selected-work {
+    margin-top: 70px;
+  }
+  @media (max-width: 768px) {
+    .name {
+      font-size: 23px;
+
+    }
+    .buttons-container {
+      margin-bottom: 50px;
+    }
+    .title {
+      font-size: 19px;
+      margin-top: -10px;
+    }
+    .text{
+      font-size: 19px;
+    }
+    .selected-work {
+      font-size: 18px;
+    }
+}
