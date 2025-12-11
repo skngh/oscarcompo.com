@@ -47,4 +47,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+<<<<<<< HEAD
           cname: oscarcompo.com
+=======
+          cname: www.oscarcompo.com
+>>>>>>> 2652aa8 (added cname to yml)
